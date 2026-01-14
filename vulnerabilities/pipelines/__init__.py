@@ -261,6 +261,7 @@ class VulnerableCodeBaseImporterPipelineV2(VulnerableCodePipeline):
     spdx_license_expression = None
     repo_url = None
     ignorable_versions = []
+    importer_name = None
 
     @classmethod
     def steps(cls):
